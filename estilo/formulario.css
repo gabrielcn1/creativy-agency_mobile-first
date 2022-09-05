@@ -1,0 +1,231 @@
+.form__descriçao {
+    max-width: 330px;
+    margin:0 auto;
+    margin-top: 2.4em;
+    background-color: var(--branco);
+    padding: 1.1em;
+    border-radius: 20px;
+}
+
+.form__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.form__texto-01 {
+    font-family: var(--fontre-secundaria);
+    font-size: 18px;
+    line-height: 1.6em;
+    margin-top: 1.8em;
+}
+
+.form__texto-02 {
+    font-family: var(--fontre-secundaria);
+    font-size: 18px;
+    line-height: 1.6em;
+    margin-top: 1.5em;
+}
+
+hr {
+    width: 88%;
+    margin-top: 1em;
+    margin-bottom: 1.8em;
+}
+
+.form__location {
+    display: flex;
+}
+
+.form-img__icon {
+    width: 30px;
+}
+
+.form__texto-icon {
+    margin-left: 1em;
+}
+
+.form__subtitulo {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    margin-bottom: 0.7em;
+}
+
+.form__position {
+    margin-bottom: 1em;
+}
+
+.form__subtexto {
+    font-family: var(--fontre-secundaria);
+    font-style: italic;
+}
+
+.form__position-tel {
+    margin-bottom: 1em;
+}
+
+
+.form__formulario {
+    background-color: var(--azul);
+    max-width: 330px;
+    margin: 0 auto;
+    padding: 1.1em;
+    border-radius: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.titulo__formulario {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+.form__input {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    margin: 0.5em 0;
+    margin-bottom: 1.4em;
+}
+
+.form__input:focus {
+    outline: 2px solid var(--laranja);
+}
+
+.form__input::placeholder {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cinza-claro);
+}
+
+.form__label {
+    color: var(--branco);
+    font-weight: 400;
+}
+
+.form__textarea {
+    margin-top: 0.6em;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 1em;
+}
+
+.form__textarea:focus {
+    outline: 2px solid var(--laranja);
+}
+
+.form__textarea::placeholder {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--cinza-claro);
+}
+
+.form__check:focus {
+    outline: 1px solid var(--azul);
+}
+
+.fundo__link {
+    background-color: var(--laranja);
+    width: 100%;
+    text-align: center;
+    padding: 1.2em;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form__link {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.fundo__link:hover {
+    background-color: #ff6219ea;
+}
+
+@media screen and (min-width: 576px) {
+    .form__descriçao {
+        max-width: 500px;
+    }
+
+    .form__titulo {
+        font-size: 60px;
+    }
+
+    hr {
+        width: 61%;
+    }
+
+    .form__formulario {
+        max-width: 500px;
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .form__container {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 720px;
+    }
+
+    .form__descriçao {
+        max-width: 330px;
+        height: 650px;
+        margin: 0 auto;
+    }
+
+    .form__formulario {
+        max-width: 330px;
+        height: 650px;
+    }
+}
+
+@media screen and (min-width: 940px){
+    .form__container {
+        max-width: 900px;
+    }
+
+    .form__descriçao {
+        max-width: 420px;
+    }
+
+    .form__formulario {
+        max-width: 420px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .form__container {
+        max-width: 1300px;
+    }
+
+    .form__descriçao {
+        max-width: 620px;
+        padding-top: 5em;
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.226);
+    }
+
+    .form__formulario {
+        max-width: 620px;
+        margin-right: 5px;
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.226);
+    }
+}

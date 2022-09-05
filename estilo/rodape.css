@@ -1,0 +1,17 @@
+.rodape__footer {
+    background-color: var(--cinza-escuro);
+    padding: 2.5em;
+    margin-top: 5em;
+}
+
+.rodape__container {
+    align-items: center;
+}
+
+.rodape__texto {
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--branco);
+    text-align: center;
+}

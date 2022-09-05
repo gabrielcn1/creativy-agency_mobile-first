@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('header.css');
+@import url('lider.css');
+@import url('capabilities.css');
+@import url('about.css');
+@import url('juice.css');
+@import url('read.css');
+@import url('turn.css');
+@import url('formulario.css');
+@import url('rodape.css');
+
+:root {
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Open Sans'
+    --fonte-titulo: 'PT Sans', sans-serif;
+
+    --branco: #ffffff;
+    --branco-fundo: #f2f2f2;
+    --cinza-fundo: #e5e5e5;
+    --azul: #1d37ff;
+    --laranja: #ff6019;
+    --preto: #000000;
+    --cinza-claro: #999999;
+    --cinza-escuro: #333333;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cinza-fundo);
+}

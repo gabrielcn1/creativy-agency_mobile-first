@@ -1,0 +1,140 @@
+.about__section {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.about__topico {
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+.about-titulo__primario {
+    margin-top: 1.7em;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.about-titulo__secundario {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0.5em;
+}
+
+.about-titulo__terciario {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0.8em;
+}
+
+.about__paragrafo {
+    font-size: 16px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cinza-claro);
+    margin-top: 1.3em;
+    line-height: 1.6em;
+}
+
+.about__porcentagem {
+    margin-top: 2em;
+}
+
+.about__item {
+    max-width: 330px;
+    background-color: var(--cinza-claro);
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.about__item-01 {
+    background-color: var(--azul);
+}
+
+.about__item-02 {
+    background-color: var(--laranja);
+}
+
+.about-titulo__item {
+    font-family: var(--fonte-primaria);
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--branco);
+    text-align: center;
+}
+
+.about-texto__item {
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+    margin-top: 1em;
+    color: var(--branco);
+}
+
+@media screen and (min-width: 576px) {
+    .about__topico {
+        max-width: 500px;
+    }
+
+    .about-titulo__secundario {
+        font-size: 48px;
+    }
+
+    .about__item {
+        max-width: 500px;
+    }
+
+    .about-texto__item {
+        text-align: center;
+    }
+
+    .about-titulo__item {
+        font-size: 72px;
+    }
+}
+
+@media screen and (min-width: 720px){
+    .about__container {
+        display: flex;
+        align-items: center;
+    }
+
+    .about__topico {
+        width: 50%;
+    }
+
+    .about__item {
+        max-width: 300px;
+    }
+
+    .about__porcentagem {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 940px){
+    .about__porcentagem {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about__item {
+        max-width: 180px;
+        height: 240px;
+        margin-left: 1em;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .about-titulo__secundario {
+        font-size: 51px;
+    }
+    
+    .about__item {
+        max-width: 300px;
+        height: 200px;
+    }
+
+    .about__topico {
+        margin-right: -3em;
+    }
+}

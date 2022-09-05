@@ -1,0 +1,128 @@
+.header__container {
+    background-color: var(--cinza-fundo);
+}
+
+.header__cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    width: 99.1vw;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    cursor: pointer;
+}
+
+.header__menu {
+    cursor: pointer;
+}
+
+.header__imagens-01 {
+    margin-left: 2em;
+}
+
+.header__iamgens-02 {
+    margin-right: 2em;
+}
+
+.header__fundo {
+    height: 30vh;
+    background-image: url('../img/header-fundo.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 1em;
+    margin-top: 3em;
+}
+
+.header__titulo {
+    margin-top: 3em;
+    text-align: center;
+    color: var(--branco);
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+}
+
+.header__busca {
+    background-color: var(--branco);
+    max-width: 380px;
+    padding: 1.4em;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 3px 5px #ff62193b;
+}
+
+.header__link {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: var(--laranja);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header__link:hover {
+    border-bottom: 2px dotted var(--laranja);
+}
+
+@media screen and (min-width: 576px){
+    .header__fundo {
+        height: 40vh;
+    }
+
+    .titulo {
+        font-size: 50px;
+        margin-top: 2.2em;
+        box-sizing: border-box;
+    }
+
+    .header__busca {
+        box-sizing: border-box;
+        max-width: 550px;
+        margin-top: 2.5em;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .header__fundo {
+        height: 45vh;
+    }
+
+    .titulo {
+        font-size: 60px;
+    }
+
+    .header__busca {
+        max-width: 650px;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .header__fundo {
+        height: 55vh;
+    }
+
+    .titulo {
+        font-size: 75px;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .header__fundo {
+        height: 80vh;
+    }
+
+    .titulo {
+        font-size: 120px;
+    }
+
+    .header__busca {
+        max-width: 700px;
+    }
+}
